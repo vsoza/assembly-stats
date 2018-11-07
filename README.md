@@ -1,3 +1,5 @@
+# This program was modified by Adam Waalkes to produce N10 stats as well by modifying the stats.cpp file
+
 # assembly-stats
 
 Get assembly statistics from FASTA and FASTQ files.
