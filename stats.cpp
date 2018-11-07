@@ -206,6 +206,7 @@ string Stats::toString_human_readable() const
        << ", n = " << number_
        << ", ave = " << fixed << mean_
        << ", largest = " << longest_ << endl
+       << "N10 = " << n50_[0] << ", n = " << n50n_[0] << endl
        << "N50 = " << n50_[4] << ", n = " << n50n_[4] << endl
        << "N60 = " << n50_[5] << ", n = " << n50n_[5] << endl
        << "N70 = " << n50_[6] << ", n = " << n50n_[6] << endl
